@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+:root {
+    --background-color: #0f0f0f;
+    --background-headertop: rgba(6, 17, 37, 0.75);
+    --headertop-bottom-line-color: rgba(255, 255, 255, 0.125);
+    --text-color: #ffffff;
+    --name-day-of-death-and-date-of-birth-bar: #242424;
+    --subtitle-color: #0dfb355b;
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    font-style: normal;
+    src: local('Poppins-Medium'), url('../fonts/Poppins-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "ClimateCrisis-Regular";
+    font-style: normal;
+    src: local('ClimateCrisis-Regular'), url('../fonts/ClimateCrisis-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Anton-Regular";
+    font-style: normal;
+    src: local('Anton-Regular'), url('../fonts/Anton-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OldNewspaperTypes";
+    font-style: normal;
+    src: local('OldNewspaperTypes'), url('../fonts/OldNewspaperTypes.ttf') format("truetype");
+}
