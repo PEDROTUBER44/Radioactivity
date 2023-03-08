@@ -1,0 +1,54 @@
+div#content div#authors {
+    width: 100%;
+    margin-top: 70px;
+}
+
+div#content div#authors div#authorscontent {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+div#content div#authors div#authorscontent div.author {
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    transition: box-shadow 1s ease-in-out;
+    transition: 0.5s ease-in-out;
+    border: 4px solid #202020;
+    border-radius: 100px;
+}
+
+div#content div#authors div#authorscontent div.author:hover {
+    border: 4px solid #00d9ff;
+    box-shadow: 0px 0px 35px #0d35ff, 0px 0px 15px #0d35ffc0 inset;
+    border-radius: 10px;
+}
+
+div#content div#authors div#authorscontent div.author div#profileimage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+div#content div#authors div#authorscontent div.author div#profileimage div#image {
+    width: 100px;
+    height: 100px;
+}
+
+div#content div#authors div#authorscontent div.author div#profileimage div#image img {
+    width: 100%;
+    height: 100%;
+}
+
+div#content div#authors div#authorscontent div.author h3 {
+    font-family: "Poppins-Medium", Arial;
+    color: var(--text-color);
+    font-size: 20px;
+}

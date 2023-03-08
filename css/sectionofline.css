@@ -1,0 +1,14 @@
+div#content div#sectionofline {
+    width: 100%;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 10px;
+}
+
+div#content div#sectionofline div#line {
+    width: 45vw;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}

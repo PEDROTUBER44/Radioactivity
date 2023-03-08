@@ -1,0 +1,29 @@
+div#content div#buttonsection {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+	justify-content: center;
+    margin-top: 40px;
+}
+
+div#content div#buttonsection button {
+    font-family: "ClimateCrisis-Regular", Arial;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: 10px;
+    background: none;
+    transition: box-shadow 1s ease-in-out;
+    color: #252525;
+    border: 4px solid #252525;
+    border-radius: 10px;
+}
+
+div#content div#buttonsection button:hover {
+    border: 4px solid #00d9ff;
+    box-shadow: 0px 0px 35px #0d35ff, 0px 0px 15px #0d35ffc0 inset;
+    text-shadow: 0px 0px 10px #0d35ffcc, 0px 0px 3px #0d35ff;
+    background-color: #00d9ff;
+}

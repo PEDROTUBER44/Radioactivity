@@ -1,0 +1,11 @@
+div#content div#nameofschool {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#content div#nameofschool h2 {
+    font-family: "ClimateCrisis-Regular", Arial;
+    color: var(--text-color);
+    font-size: 4vw;
+}

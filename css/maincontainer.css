@@ -1,0 +1,14 @@
+div#content div#maincontainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+div#content div#maincontainer h1 {
+    font-family: 'OldNewspaperTypes', Arial;
+    color: var(--text-color);
+    font-size: 70px;
+}

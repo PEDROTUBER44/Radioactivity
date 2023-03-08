@@ -1,0 +1,11 @@
+div#content div#nameofwork {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#content div#nameofwork h3 {
+    font-family: "Anton-Regular", Arial;
+    color: var(--text-color);
+    font-size: 2vw;
+}
