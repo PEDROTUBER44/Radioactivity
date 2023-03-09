@@ -35,34 +35,3 @@ div#peoples div#containerofnames div.name h3 {
     font-family: "Poppins-Medium", Arial;
     color: var(--text-color);
 }
-
-
-
-
-/*
-
-div#peoples div#containerofnames div.name {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    cursor: pointer;
-    border: 5px;
-    transition: box-shadow 1s ease-in-out;
-    color: #252525;
-    border: 1px solid #252525;
-}
-
-div#peoples div#containerofnames div.name:hover {
-    border: 4px solid #00d9ff ease-in-out;
-    box-shadow: 0px 0px 35px #0d35ff, 0px 0px 15px #0d35ffc0 inset;
-    text-shadow: 0px 0px 10px #0d35ffcc, 0px 0px 3px #0d35ff;
-    background-color: #00d9ff;
-}
-
-div#peoples div#containerofnames div.name h3 {
-    font-family: "Poppins-Medium", Arial;
-    color: var(--text-color);
-}
-*/

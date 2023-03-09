@@ -1,0 +1,48 @@
+div#content div#reasonfordeath {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background-color-reasonofdeath);
+    margin-top: 50px;
+    padding: 10px 10px 10px 20px;
+}
+
+div#content div#reasonfordeath div#reasonfordeathtitle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#content div#reasonfordeath div#reasonfordeathtitle div#image {
+    width: 100px;
+    height: 100px;
+}
+
+div#content div#reasonfordeath div#reasonfordeathtitle div#image img {
+    width: 100%;
+    height: 100%;
+}
+
+div#content div#reasonfordeath div#reasonfordeathtitle h2 {
+    font-family: "Poppins-Medium", Arial;
+    color: var(--text-color);
+}
+
+div#content div#reasonfordeath div#textofreasonfordeathtitle {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: var(--background-color);
+    border: 1px solid var(--headertop-bottom-line-color);
+    border-radius: 10px;
+    text-align: center;
+}
+
+div#content div#reasonfordeath div#textofreasonfordeathtitle h4 {
+    font-family: Arial;
+    color: var(--text-color);
+}

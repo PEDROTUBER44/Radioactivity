@@ -1,10 +1,11 @@
-div#content div#biographysection div#infoofcientist {
+div#content div#infoofcientist {
     width: 100%;
     height: 70px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist {
+div#content div#infoofcientist div#contentofinfoofcientist {
     width: 100%;
     height: 100%;
     display: flex;
@@ -12,36 +13,39 @@ div#content div#biographysection div#infoofcientist div#contentofinfoofcientist 
     justify-content: space-around;
     background-color: var(--name-day-of-death-and-date-of-birth-bar);
     border-radius: 10px;
+    -webkit-box-shadow: 15px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 15px 10px 15px 0px rgba(0,0,0,0.75);
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dateofbirth,
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#name,
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dayofdeath {
+div#content div#infoofcientist div#contentofinfoofcientist div#dateofbirth,
+div#content div#infoofcientist div#contentofinfoofcientist div#name,
+div#content div#infoofcientist div#contentofinfoofcientist div#dayofdeath {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dayofdeath h3,
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dateofbirth h3 {
+div#content div#infoofcientist div#contentofinfoofcientist div#dayofdeath h3,
+div#content div#infoofcientist div#contentofinfoofcientist div#dateofbirth h3 {
     font-family: "Poppins-Medium", Arial;
     color: var(--text-color);
     margin-right: 10px;
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#name h3 {
+div#content div#infoofcientist div#contentofinfoofcientist div#name h3 {
     font-family: "Poppins-Medium", Arial;
     color: var(--text-color);
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dateofbirth div#image,
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dayofdeath div#image {
+div#content div#infoofcientist div#contentofinfoofcientist div#dateofbirth div#image,
+div#content div#infoofcientist div#contentofinfoofcientist div#dayofdeath div#image {
     width: 40px;
     height: 50px;
 }
 
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dateofbirth div#image img,
-div#content div#biographysection div#infoofcientist div#contentofinfoofcientist div#dayofdeath div#image img {
+div#content div#infoofcientist div#contentofinfoofcientist div#dateofbirth div#image img,
+div#content div#infoofcientist div#contentofinfoofcientist div#dayofdeath div#image img {
     width: 100%;
     height: 100%;
 }

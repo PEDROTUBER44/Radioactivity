@@ -1,9 +1,9 @@
-div#content div#professionallifehistory {
+div#content div#personallifehistory {
     width: 100%;
     margin-top: 50px;
 }
 
-div#content div#professionallifehistory div#professionallifehistorytitle {
+div#content div#personallifehistory div#personallifehistorytitle {
     width: 400px;
     height: 40px;
     display: flex;
@@ -13,20 +13,23 @@ div#content div#professionallifehistory div#professionallifehistorytitle {
     background-color: var(--subtitle-color);
     border-radius: 100px;
     margin-left: 10px;
+    -webkit-box-shadow: 15px 10px 15px 0px rgba(0, 0, 0, 0.815);
+    -moz-box-shadow: 15px 10px 15px 0px rgba(0, 0, 0, 0.815);
+    box-shadow: 15px 10px 15px 0px rgba(0, 0, 0, 0.815);
 }
 
-div#content div#professionallifehistory div#professionallifehistorytitle h2 {
+div#content div#personallifehistory div#personallifehistorytitle h2 {
     font-family: "Poppins-Medium", Arial;
     color: var(--text-color);
 }
 
-div#content div#professionallifehistory div#textofprofessionallifehistory {
+div#content div#personallifehistory div#textofpersonallifehistory {
     width: 100%;
     padding-left: 25px;
     padding-right: 20px;
 }
 
-div#content div#professionallifehistory div#textofprofessionallifehistory h4 {
+div#content div#personallifehistory div#textofpersonallifehistory h4 {
     font-family: Arial;
     color: var(--text-color);
     margin-top: 10px;

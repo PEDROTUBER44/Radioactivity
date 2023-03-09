@@ -17,6 +17,7 @@ body {
     --text-color: #ffffff;
     --name-day-of-death-and-date-of-birth-bar: #242424;
     --subtitle-color: #0dfb355b;
+    --background-color-reasonofdeath: rgba(37, 6, 6, 0.75);
 }
 
 @font-face {

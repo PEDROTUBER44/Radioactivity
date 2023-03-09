@@ -1,0 +1,69 @@
+div#headerbottom {
+    width: 100%;
+    height: 500px;
+    background-color: #000000;
+}
+
+div#headerbottom div#contentheaderbottom {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+div#headerbottom div#contentheaderbottom div#title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+div#headerbottom div#contentheaderbottom div#title h2 {
+    font-family: 'Poppins-Medium', Arial;
+    color: var(--text-color);
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#pierrecurie,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#mariecurie,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#antoinehenri {
+    width: 100%;
+    height: 445px;
+    display: block;
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#pierrecurie div.name,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#mariecurie div.name,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#antoinehenri div.name {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 10px 10px; 
+    text-align: center;
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#pierrecurie div.name h4,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#mariecurie div.name h4,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#antoinehenri div.name h4 {
+    font-family: 'Poppins-Medium', Arial;
+    color: var(--text-color);
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#pierrecurie div.links,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#mariecurie div.links,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#antoinehenri div.links {
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px 10px 10px; 
+    text-align: center;
+}
+
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#pierrecurie div.links a,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#mariecurie div.links a,
+div#headerbottom div#contentheaderbottom div#cientistsbibliography div#antoinehenri div.links a {
+    display: block;
+}
